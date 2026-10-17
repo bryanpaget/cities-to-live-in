@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scaling on Kubernetes - Aurora Platform</title>
+    <title>Cities for People - A Nationwide Blueprint for Human-Scale Streets</title>
     <style>
         * {
             margin: 0;
@@ -18,25 +18,11 @@
         .hero {
             position: relative;
             height: 100vh;
-            background: linear-gradient(135deg, #0f3460 0%, #16213e 50%, #0f3460 100%);
-            background-image: url('./img/aurora.png');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
+            background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 45%, #00695c 100%);
             display: flex;
             align-items: center;
             justify-content: center;
             overflow: hidden;
-        }
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.5);
-            z-index: 1;
         }
         .hero-content {
             position: relative;
@@ -71,8 +57,8 @@
             font-size: 14px;
             font-weight: 600;
             margin-bottom: 30px;
-            background: rgba(243, 156, 18, 0.9);
-            color: white;
+            background: rgba(165, 214, 167, 0.9);
+            color: #1b5e20;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
@@ -84,13 +70,8 @@
         .hero-meta strong {
             font-weight: 600;
         }
-        .language-links {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            margin-bottom: 30px;
-        }
-        .lang-btn {
+        .view-link {
+            display: inline-block;
             padding: 14px 32px;
             font-size: 1.1rem;
             font-weight: 600;
@@ -101,11 +82,10 @@
             cursor: pointer;
             transition: all 0.3s ease;
             text-decoration: none;
-            display: inline-block;
         }
-        .lang-btn:hover {
+        .view-link:hover {
             background: white;
-            color: #0f3460;
+            color: #1b5e20;
             transform: translateY(-2px);
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
         }
@@ -115,22 +95,22 @@
             padding: 0 40px;
         }
         h2 {
-            color: #0f3460;
+            color: #1b5e20;
             font-size: 2rem;
             margin-bottom: 30px;
-            border-bottom: 3px solid #00d4ff;
+            border-bottom: 3px solid #43a047;
             padding-bottom: 15px;
         }
         .card {
-            background: #f8f9fa;
-            border-left: 4px solid #00d4ff;
+            background: #f4faf4;
+            border-left: 4px solid #43a047;
             border-radius: 8px;
             padding: 30px;
             margin-bottom: 30px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         }
         .card h3 {
-            color: #0f3460;
+            color: #1b5e20;
             margin-bottom: 15px;
             font-size: 1.3rem;
         }
@@ -144,15 +124,15 @@
             position: relative;
         }
         .card li::before {
-            content: '→';
+            content: '\2192';
             position: absolute;
             left: 0;
-            color: #00d4ff;
+            color: #43a047;
             font-weight: bold;
         }
         pre {
-            background: #2c3e50;
-            color: #ecf0f1;
+            background: #1b3a1c;
+            color: #e8f5e9;
             padding: 16px;
             border-radius: 6px;
             overflow-x: auto;
@@ -162,22 +142,22 @@
             line-height: 1.5;
         }
         a {
-            color: #0f3460;
+            color: #1b5e20;
             text-decoration: none;
             font-weight: 500;
         }
         a:hover {
             text-decoration: underline;
-            color: #00d4ff;
+            color: #43a047;
         }
         .footer {
-            background: #f0f1f3;
+            background: #eef5ee;
             padding: 30px 40px;
             margin-top: 60px;
             text-align: center;
-            color: #7f8c8d;
+            color: #6a8a6c;
             font-size: 0.95rem;
-            border-top: 1px solid #e0e1e3;
+            border-top: 1px solid #dce8dc;
         }
         .footer p {
             margin: 8px 0;
@@ -188,13 +168,6 @@
             }
             .hero-subtitle {
                 font-size: 1.1rem;
-            }
-            .language-links {
-                flex-direction: column;
-                gap: 12px;
-            }
-            .lang-btn {
-                width: 100%;
             }
             .content {
                 padding: 0 20px;
@@ -211,58 +184,46 @@
 <body>
     <section class="hero">
         <div class="hero-content">
-            <div class="status experimental">Version 1.0 - Experimental</div>
-            <h1>Scaling on Kubernetes</h1>
-            <p class="hero-subtitle">VPA, KEDA, and Karpenter on the Aurora Platform</p>
+            <div class="status experimental">Concept Deck - Version 1.0</div>
+            <h1>Cities for People</h1>
+            <p class="hero-subtitle">A Nationwide Blueprint for Human-Scale Streets</p>
             <div class="hero-meta">
-                <strong>Aurora Platform Documentation</strong><br>
-                Statistics Canada | SSC Cloud Team | September 2026
+                <strong>Digital Transformations Canada | Concept Deck 2026</strong><br>
+                Villages, protected movement, a national bike share, and streets built for children
             </div>
-            <div class="language-links">
-                <a href="en.html" class="lang-btn">English</a>
-                <a href="fr.html" class="lang-btn">Français</a>
-            </div>
+            <a href="en.html" class="view-link">View the Presentation</a>
         </div>
     </section>
 
     <section class="content">
         <div class="card">
             <h3>About This Presentation</h3>
-            <p>A platform-team guide to the three autoscalers Aurora runs, and how they fit together. This presentation covers:</p>
+            <p>A policy manifesto for rebuilding cities around human life, with a national bike share as backbone infrastructure. It covers:</p>
             <ul>
-                <li>VPA: right-sizing pod CPU/memory requests</li>
-                <li>KEDA: event- and schedule-driven replica scaling, including scale-to-zero</li>
-                <li>Karpenter: just-in-time node provisioning and consolidation</li>
-                <li>How the four scaling axes layer together</li>
-                <li>Interactions, conflict rules, and anti-patterns</li>
+                <li>The city model: villages and neighborhoods where everything daily is a 15-minute walk</li>
+                <li>The movement hierarchy: walking, cycling and scooters first; cars and trucks as guests</li>
+                <li>The bike share as a national public utility, not a private app</li>
+                <li>The platform behind it: Kubernetes, event-driven autoscaling, and one fare account nationwide</li>
+                <li>Safe routes to school and the retooling of policing around children</li>
+                <li>A phased nationwide rollout, and the anti-patterns that kill half-measures</li>
             </ul>
         </div>
 
         <div class="card">
             <h3>Quick Start</h3>
-            <p>To build the presentation PDFs locally:</p>
-            <pre><code>make pdf       # Build English and French PDFs
-make preview-en  # Preview English slides in browser
-make preview-fr  # Preview French slides in browser</code></pre>
+            <p>To build the presentation locally:</p>
+            <pre><code>npm install
+make preview-en   # live preview on localhost:8080
+make pdf-en       # build the PDF</code></pre>
 
             <p>To generate the HTML site for GitHub Pages:</p>
-            <pre><code>make html      # Build HTML site to docs/</code></pre>
-        </div>
-
-        <div class="card">
-            <h3>Documentation</h3>
-            <ul>
-                <li><a href="https://github.com/kubernetes/autoscaler/blob/master/vertical-pod-autoscaler/README.md">VPA (kubernetes/autoscaler)</a></li>
-                <li><a href="https://keda.sh/docs/">KEDA Documentation</a></li>
-                <li><a href="https://karpenter.sh/">Karpenter Documentation</a></li>
-                <li><a href="https://github.com/gccloudone-aurora/aurora-platform-charts">Aurora Platform Charts</a></li>
-            </ul>
+            <pre><code>make html         # build HTML site into docs/</code></pre>
         </div>
     </section>
 
     <footer class="footer">
-        <p>© Statistics Canada 2026 | SSC Cloud Team | Aurora Platform</p>
-        <p>Last updated: September 2026</p>
+        <p>Cities for People - Digital Transformations Canada | Concept Deck 2026</p>
+        <p>Built with Marp</p>
     </footer>
 </body>
 </html>
