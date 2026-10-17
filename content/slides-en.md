@@ -8,6 +8,7 @@ A nationwide blueprint for rebuilding cities around human life:
 - **The city model** - villages and neighborhoods where everything daily is within a 15-minute walk
 - **The movement hierarchy** - walking, cycling, scooters first; cars and trucks as guests
 - **The bike share as national infrastructure** - a public utility, not an app
+- **The platform behind it** - the software that keeps a nationwide fleet and fare system running at 7:45 in the morning
 - **Children and the new policing role** - protecting the most important thing in society
 
 <blockquote>
@@ -19,13 +20,12 @@ This is not a bike lane proposal. It is a proposal to build cities for people ag
 <!-- The problem -->
 ## The Problem: Cities Built for Cars
 
-
 For sixty years we designed streets around vehicle throughput. The results:
 
 - **Children stopped walking to school.** The school run is now a car convoy twice a day
 - **Streets emptied of life.** What used to be the front porch of a community is a traffic sewer
 - **Land eaten by parking.** More space for stationary cars than for housing
-- **Deaths treated as normal.** Traffic violence is the leading killer of children in several countries
+- **Deaths treated as normal.** Traffic violence is a leading killer of children
 - **Households forced into two cars** just to meet basic needs
 
 <blockquote>
@@ -36,7 +36,6 @@ The car did not just take parking space. It took the street, the village, and th
 
 <!-- The premise -->
 ## The Premise: Design for the Child
-
 
 Every design decision gets one test:
 
@@ -53,17 +52,65 @@ Build the city for the weakest user and the strongest user will be fine. Reverse
 
 ---
 
+<!-- Why boring gets ignored -->
+## Why Boring Gets Ignored
+
+People call Ottawa boring, and they are right. Boring is better.
+
+- Walking and cycling photograph beautifully: a canal path at golden hour, a bike lane with actual cyclists
+- But they do not generate **spectacle**. No fight, no viral council meeting, no culture-war proxy battle
+- A safe bike lane does not produce a fight
+- A sidewalk that exists does not go viral
+- A medium-density neighbourhood that just works on a Tuesday does not give anyone a headline
+- Meanwhile Toronto and Vancouver are celebrated as exciting, world-class cities, and they are also, in increasingly concrete ways, horrible places to live
+
+<blockquote>
+Healthy is boring. Boring is better. The things that rage are rarely the things that work.
+</blockquote>
+
+---
+
+<!-- The middle path -->
+## The Middle Path
+
+I will take the bike lane that stays. I will take the sidewalk that exists. I will take the medium-density neighbourhood that does not require a car. I will take boring.
+
+- **Boring is healthy. Boring is better.**
+- Ottawa, for all its unglamorous predictability, is closer to that working middle path than either of the cities that get all the attention
+- That is not a small thing. That is the whole thing
+- The spectacle economy rewards the fight. The rest of us have to live on the street after the fight
+
+<blockquote>
+Walking and cycling get overlooked not because they are ugly. They do not perform outrage. That is exactly why they are worth defending.
+</blockquote>
+
+---
+
+<!-- China already did it -->
+## China Already Built This
+
+China is not piloting this. China finished the pilot decades ago:
+
+- **The world's largest bike-share systems** were born there: Hangzhou's public bicycle, then the megacity fleets that made our dockless experiments look like a village raffle
+- **Protected bike lanes at scales no Canadian city has approached.** Wide, signal-priority, everyday corridors in Beijing, Chengdu, Xiamen; elevated cycling highways where we cannot find the political room for a curb
+- **E-bikes are ordinary transport for hundreds of millions.** Not a hobby, not a lifestyle; the commute
+- **Share hubs and metro stations interlock.** Bikes are treated as the circulatory system of transit, not an afterthought bolted onto the car plan
+- **Meanwhile here:** Ontario removes bike lanes, Ottawa debates a pilot, Toronto fights over a single corridor, and we congratulate ourselves for being a serious country
+
+<blockquote>
+The hard part was never the technology or the money. The hard part is believing you are allowed to build it. A country that likes to imagine itself serious should feel some shame at how completely the homework has already been done, elsewhere, at scale, while we argue about paint.
+</blockquote>
+
+---
+
 <!-- ============================ PART 1: THE CITY MODEL ============================ -->
-<!-- Part 1 divider -->
 # Part 1: The City Model
 ## Villages, not sprawl
-
 
 ---
 
 <!-- The village -->
 ## The Village: The Unit of the City
-
 
 <div class="flow">
   <div class="flow-box">
@@ -97,7 +144,6 @@ A village is roughly 5,000 to 15,000 people inside a 15-minute walk. The nation 
 <!-- Village rules -->
 ## Rules of the Village
 
-
 | Rule | What It Means |
 |------|---------------|
 | **School at the center** | Every home is a 10-15 minute walk from its school |
@@ -113,16 +159,13 @@ Through-traffic is the enemy of village life. Give cars a ring road, give people
 ---
 
 <!-- ============================ PART 2: THE MOVEMENT HIERARCHY ============================ -->
-<!-- Part 2 divider -->
 # Part 2: The Movement Hierarchy
 ## Who the street belongs to
-
 
 ---
 
 <!-- Modal hierarchy -->
 ## The Modal Hierarchy
-
 
 | Rank | Mode | Street Space | Role |
 |------|------|--------------|------|
@@ -140,7 +183,6 @@ The hierarchy is not anti-car. It is honest about space: a meter of street given
 
 <!-- Street typology -->
 ## Street Typology
-
 
 <div class="flow">
   <div class="flow-box">
@@ -173,7 +215,6 @@ The hierarchy is not anti-car. It is honest about space: a meter of street given
 <!-- Cars and trucks -->
 ## Cars and Trucks Still Exist
 
-
 This is not a car ban. It is a car demotion, done properly:
 
 - **Ring roads and garages at the edge.** Drive to the village, park once, walk in
@@ -189,16 +230,13 @@ The goal is not to make driving illegal. It is to make driving unnecessary for a
 ---
 
 <!-- ============================ PART 3: BIKE SHARE AS INFRASTRUCTURE ============================ -->
-<!-- Part 3 divider -->
 # Part 3: The Bike Share as National Infrastructure
 ## A public utility on two wheels
-
 
 ---
 
 <!-- What it is -->
 ## What It Is: One National Network
-
 
 - **A hub in every village and every transit station**, with bikes available at all hours
 - **One account, one fare card, nationwide.** Ride in one city, return in another
@@ -214,7 +252,6 @@ A transit map without bikes is a map with a hole in it. The share network is the
 
 <!-- Why infrastructure -->
 ## Why Infrastructure, Not an App
-
 
 | | Dockless Private Scheme | National Public Utility |
 |---|---|---|
@@ -233,7 +270,6 @@ Private share failed because it bolted a fleet onto streets that were never desi
 
 <!-- Integration -->
 ## Integration: The Network Effect
-
 
 <div class="flow">
   <div class="flow-box">
@@ -267,17 +303,92 @@ Each hub makes the next one more useful. Transit and bikes are one system, price
 
 ---
 
-<!-- ============================ PART 4: CHILDREN AND POLICING ============================ -->
-<!-- Part 4 divider -->
-# Part 4: Children and the New Police Role
-## Protecting what matters most
+<!-- ============================ PART 4: THE PLATFORM ============================ -->
+# Part 4: The Platform
+## The software behind the fleet
 
+---
+
+<!-- What K8s is -->
+## A Tiny Bit of Plumbing
+
+The bike share is also a software system that must not go down: accounts, fares, fleet locks, telemetry.
+
+**Kubernetes** is the standard way to run software across many machines as one system:
+
+- You declare what should be running; it starts, restarts, moves, and scales services on its own
+- A machine dies at 3 a.m.? The services reappear somewhere else without anyone waking up
+- It is the grid the platform services plug into, like electricity for buildings
+- Governments, banks, and carriers already run on it; this is proven machinery, not experiment
+
+<blockquote>
+Nobody at the hub needs to know what Kubernetes is. They need the bike to unlock on a wet Tuesday morning.
+</blockquote>
+
+---
+
+<!-- Demand scaling -->
+## Demand Is Tidal
+
+Ride demand is not flat. It is a school rush at 7:45, a homeward surge at five, a downpour, a game night, June versus January.
+
+<div class="flow">
+  <div class="flow-box">
+    <div class="plate plate-head">Real Signals</div>
+    <div class="plate">Ride unlocks, fare</div>
+    <div class="plate">transactions, weather,</div>
+    <div class="plate">event schedules</div>
+  </div>
+  <div class="flow-arrow">&rarr;</div>
+  <div class="flow-box">
+    <div class="plate plate-head">KEDA + VPA</div>
+    <div class="plate">KEDA scales services</div>
+    <div class="plate">on those signals;</div>
+    <div class="plate">VPA right-sizes each</div>
+    <div class="plate">from real usage</div>
+  </div>
+  <div class="flow-arrow">&rarr;</div>
+  <div class="flow-box">
+    <div class="plate plate-head">Karpenter</div>
+    <div class="plate">Adds and reclaims</div>
+    <div class="plate">machines just in time;</div>
+    <div class="plate">quiet at night,</div>
+    <div class="plate">full capacity at rush</div>
+  </div>
+</div>
+
+- Scale on **actual demand**, not guesses: transactions per minute, unlocks per hub
+- Development environments scale to zero when nobody is using them
+- Keep each controller on its own job: one scales count, one scales size, one supplies machines
+
+<blockquote>
+The same three tools government platforms already run, pointed at a mission worth caring about.
+</blockquote>
+
+---
+
+<!-- Reliability -->
+## Built to Be Boring
+
+- **Hubs fail soft.** A network outage queues rides locally; the lock still opens, the dock still holds
+- **One platform, many operators.** Regional operations plug in through open APIs instead of re-procuring their own systems
+- **Telemetry is public by default.** Aggregate ridership data published openly; personal data protected, minimized, never sold
+- **Boring is the feature.** Heroics at 2 a.m. are a design failure. The platform should be dull, predictable, and quietly excellent
+
+<blockquote>
+A national utility earns trust the same way a sidewalk does: by being there, every single day.
+</blockquote>
+
+---
+
+<!-- ============================ PART 5: CHILDREN AND POLICING ============================ -->
+# Part 5: Children and the New Police Role
+## Protecting what matters most
 
 ---
 
 <!-- Safe routes -->
 ## Safe Routes to School
-
 
 The convoy at the school gate ends because the alternative already exists:
 
@@ -296,7 +407,6 @@ Nobody drives their kid to school here. Not because it is forbidden, but because
 <!-- The new policing role -->
 ## Police, Retooled: Guardians of the Street
 
-
 A society that puts children first redefines what its police do:
 
 - **Morning escort duty.** Officers walk and ride school routes at the times children travel; presence, not enforcement
@@ -311,17 +421,14 @@ The most important thing in society is a child walking to school. The police exi
 
 ---
 
-<!-- ============================ PART 5: DELIVERY ============================ -->
-<!-- Part 5 divider -->
-# Part 5: Delivery
+<!-- ============================ PART 6: DELIVERY ============================ -->
+# Part 6: Delivery
 ## How it actually gets built
-
 
 ---
 
 <!-- Phased rollout -->
 ## The Rollout
-
 
 | Phase | Years | What Happens |
 |-------|-------|--------------|
@@ -337,13 +444,30 @@ Start where the political will is. Make the first villages so good that every re
 
 ---
 
+<!-- Who builds it -->
+## Who Builds It
+
+This is a national build with a single owner, the same way big public systems always get built:
+
+- **One federal delivery office** owns the standard and the platform: fare card, account, payments, fleet telemetry, open APIs
+- **Build once, deploy everywhere.** Regions and operators plug into the national platform; nobody re-procures the same software thirty times
+- **The expertise already exists in government.** Running shared platforms at national scale is a solved problem here; it just needs a mission worth pointing at
+- **Private operators can run fleets.** They run the bikes and the maintenance, under public standard, on the public platform
+- **Digital Transformations Canada** is the natural home for the platform layer: shared digital infrastructure, built federal, consumed locally
+
+<blockquote>
+The lanes are a municipal job. The fleet is an operations job. The platform is a national job. Do not mix them up.
+</blockquote>
+
+---
+
 <!-- Anti-patterns -->
 ## What Kills It: Anti-Patterns
-
 
 - **Painted lanes next to speeding traffic** - a stripe of paint is not infrastructure; protect it or delete it
 - **A pilot with no network** - one pretty bike street that connects to nothing teaches people that bikes do not go anywhere
 - **Bike share without bike lanes** - fleets die on hostile streets; the app is not the product, the street is
+- **Thirty regional procurements** - every region re-buys its own platform; the national account dies, and so does the network effect
 - **Keeping car capacity "for now"** - every lane left in place signals that the old city is still the real one
 - **School gates full of cars "just this morning"** - exceptions every day are not exceptions; design them out
 - **Enforcement without design** - fines replace protection; the street stays lethal for the child who misses a signal
@@ -357,10 +481,10 @@ Half-measures are worse than nothing. They build the public's belief that the ch
 <!-- Conclusion -->
 ## The Ask
 
-
 - **Adopt the village as the unit of planning.** Everything daily within a 15-minute walk
 - **Adopt the modal hierarchy in law.** Space allocated by the hierarchy, not by history
 - **Fund the national bike share as public infrastructure,** with a hub in every village and every school
+- **Build the national platform once,** federally, with open APIs and one account nationwide
 - **Rewrite the police mandate** around the protection of children and the vulnerable on the street
 - **Start with proof villages,** then convert, then scale nationwide
 
@@ -373,13 +497,18 @@ A city is not a traffic problem to be managed. It is a place where children grow
 <!-- References -->
 ## References and Further Reading
 
-
 ### Design and research:
 1. Jan Gehl, *Cities for People* - life between buildings and the human scale of streets
 2. The 15-minute city concept - daily needs within a short walk or ride (Carlos Moreno)
 3. Vision Zero - the ethical premise that no traffic death is acceptable, starting with children
 
-### Practice:
-4. Paris and Barcelona - large-scale pedestrianization, superblocks, and bike networks at city scale
-5. The Netherlands - fifty years of protected cycling infrastructure and the "sustainable safety" doctrine
-6. School street programs (Barcelona, Paris, Bogota) - closing streets to cars at school drop-off and pick-up
+### Practice, near and far:
+4. Chinese megacities - the largest bike-share systems and protected cycling networks on earth (Hangzhou, Beijing, Chengdu, Xiamen)
+5. BIXI Montreal - a publicly owned bike share that proved a cold city can ride year-round
+6. Vision Zero Ottawa - the local commitment, and the gap between commitment and street design
+7. Paris, Barcelona, Bogota - school street programs and large-scale pedestrianization at city scale
+8. The Netherlands - fifty years of protected cycling infrastructure and the "sustainable safety" doctrine
+
+### Platform:
+9. Kubernetes - the standard for running services across many machines as one system
+10. VPA, KEDA, Karpenter - right-sizing, event-driven scaling, and just-in-time capacity for tidal demand

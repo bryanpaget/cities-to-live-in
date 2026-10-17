@@ -1,10 +1,10 @@
 {
-  "name": "vpa-presentation",
+  "name": "cities-for-people",
   "version": "1.0.0",
-  "description": "VPA Usage Guide Presentation for Aurora Platform",
+  "description": "Cities for People - a nationwide blueprint for human-scale streets (concept deck)",
   "private": true,
   "scripts": {
-    "build": "make pdf"
+    "build": "make html"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^4.5.1"

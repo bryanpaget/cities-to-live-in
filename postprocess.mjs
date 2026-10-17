@@ -1,37 +1,37 @@
 import fs from 'fs'
 
-// Post-process Marp CLI HTML output: inject the aurora theme CSS and tag
+// Post-process Marp CLI HTML output: inject the theme CSS and tag
 // large code blocks with a smaller-font class. The Marp CLI already produces
 // a complete, clickable "bespoke" presentation (arrow-key navigation, one slide
 // at a time); we only layer styling on top. We do NOT touch the structure or
 // the bespoke JS.
 
-const AURORA = 'linear-gradient(135deg,#1de9b6 0%,#2979ff 35%,#7c4dff 70%,#64ffda 100%)'
+const PALETTE = 'linear-gradient(135deg,#2e7d32 0%,#43a047 35%,#00897b 70%,#66bb6a 100%)'
 
 const EXTRA_CSS = `
-/* ---- Aurora theme (injected post-build) ---- */
-section h2 { padding-bottom:8px; margin-bottom:16px; border-bottom:4px solid transparent; border-image:${AURORA} 1; }
-section h3 { color:#2554c7; }
-section footer { color:#2979ff; font-weight:600; }
-section blockquote { border-left:6px solid transparent; border-image:${AURORA} 1; background:#f3f8ff; padding:12px 18px; font-style:italic; }
+/* ---- Cities for People theme (injected post-build) ---- */
+section h2 { padding-bottom:8px; margin-bottom:16px; border-bottom:4px solid transparent; border-image:${PALETTE} 1; }
+section h3 { color:#1b5e20; }
+section footer { color:#2e7d32; font-weight:600; }
+section blockquote { border-left:6px solid transparent; border-image:${PALETTE} 1; background:#f3faf3; padding:12px 18px; font-style:italic; }
 section table { border-collapse:collapse; }
-section table th { background:${AURORA}; color:#fff; font-weight:600; border:1px solid #cbd8f0; text-shadow:0 1px 2px rgba(0,0,0,0.25); }
-section table td { border:1px solid #d4e4e0; }
-section table tr:nth-child(even) td { background:#f3f8ff; }
-section a { color:#2979ff; }
+section table th { background:${PALETTE}; color:#fff; font-weight:600; border:1px solid #c8e0c8; text-shadow:0 1px 2px rgba(0,0,0,0.25); }
+section table td { border:1px solid #d4e4d4; }
+section table tr:nth-child(even) td { background:#f3faf3; }
+section a { color:#2e7d32; }
 
 /* Code blocks: comfortable default, smaller for long blocks (tagged below). */
 section pre { font-size:20px; line-height:1.35; }
 section pre.code-lg { font-size:15px; line-height:1.3; }
 section pre.code-xl { font-size:13px; line-height:1.25; }
 
-/* How VPA Works component flow (stack of plates) */
+/* Component flow diagrams (stack of plates) */
 .flow { display:flex; align-items:stretch; justify-content:center; gap:16px; margin-top:18px; }
-.flow-box { flex:1 1 0; background:#fff; border:3px solid transparent; border-image:${AURORA} 1; }
-.plate { padding:14px 16px; font-size:19px; line-height:1.3; text-align:center; border-bottom:1px solid #d4e4e0; }
+.flow-box { flex:1 1 0; background:#fff; border:3px solid transparent; border-image:${PALETTE} 1; }
+.plate { padding:14px 16px; font-size:19px; line-height:1.3; text-align:center; border-bottom:1px solid #d4e4d4; }
 .plate:last-child { border-bottom:none; }
-.plate-head { background:${AURORA}; color:#fff; font-size:24px; font-weight:bold; border-bottom:none; text-shadow:0 1px 2px rgba(0,0,0,0.35); }
-.flow-arrow { display:flex; align-items:center; font-size:48px; color:#2979ff; font-weight:bold; }
+.plate-head { background:${PALETTE}; color:#fff; font-size:24px; font-weight:bold; border-bottom:none; text-shadow:0 1px 2px rgba(0,0,0,0.35); }
+.flow-arrow { display:flex; align-items:center; font-size:48px; color:#2e7d32; font-weight:bold; }
 `
 
 // Tag code blocks by size so larger ones render at a smaller font.
