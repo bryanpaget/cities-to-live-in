@@ -33,9 +33,9 @@ A nationwide blueprint for rebuilding cities around human life:
 
 - **The city model** - villages and neighborhoods where everything daily is within a 15-minute walk
 - **The movement hierarchy** - walking, cycling, scooters first; cars and trucks as guests
-- **The bike share as national infrastructure** - a public utility, not an app
-- **The platform behind it** - the software that keeps a nationwide fleet and fare system running at 7:45 in the morning
-- **Children and the new policing role** - protecting the most important thing in society
+- **The bike share as governed infrastructure** - a national standard for fare and access, run locally
+- **The platform behind it** - the spec and reference implementation that let locally-run systems interoperate at 7:45 in the morning
+- **Children and safe routes to school** - protecting the most important thing in society
 
 <blockquote>
 This is not a bike lane proposal. It is a proposal to build cities for people again.
@@ -75,6 +75,8 @@ Every design decision gets one test:
 <blockquote>
 Build the city for the weakest user and the strongest user will be fine. Reverse it and nobody is safe.
 </blockquote>
+
+This is a **design review checklist for cities**, not a national specification. Each city applies the test to its own streets.
 
 ---
 
@@ -122,9 +124,10 @@ China is not piloting this. China finished the pilot decades ago:
 - **E-bikes are ordinary transport for hundreds of millions.** Not a hobby, not a lifestyle; the commute
 - **Share hubs and metro stations interlock.** Bikes are treated as the circulatory system of transit, not an afterthought bolted onto the car plan
 - **Meanwhile here:** Ontario removes bike lanes, Ottawa debates a pilot, Toronto fights over a single corridor, and we congratulate ourselves for being a serious country
+- **And the dockless wave failed too.** Operator collapse, abandoned fleets, no public standard, no accountability. China's lesson is not "copy the scale." It is "govern the public layer, keep the operator layer plural."
 
 <blockquote>
-The hard part was never the technology or the money. The hard part is believing you are allowed to build it. A country that likes to imagine itself serious should feel some shame at how completely the homework has already been done, elsewhere, at scale, while we argue about paint.
+The hard part was never the technology or the money. It is believing you are allowed to build it — and then building the public layer well enough that nobody has to trust a single company with the whole city.
 </blockquote>
 
 ---
@@ -136,7 +139,7 @@ The hard part was never the technology or the money. The hard part is believing 
 ---
 
 <!-- The village -->
-## The Village: The Unit of the City
+## The Village: A Model, Not a Mandate
 
 <div class="flow">
   <div class="flow-box">
@@ -162,7 +165,7 @@ The hard part was never the technology or the money. The hard part is believing 
 </div>
 
 <blockquote>
-A village is roughly 5,000 to 15,000 people inside a 15-minute walk. The nation is a network of them.
+A village is roughly 5,000 to 15,000 people inside a 15-minute walk. This is a **model bylaw** cities can adopt and adapt. The nation is a network of villages that chose to be villages.
 </blockquote>
 
 ---
@@ -170,7 +173,9 @@ A village is roughly 5,000 to 15,000 people inside a 15-minute walk. The nation 
 <!-- Village rules -->
 ## Rules of the Village
 
-| Rule | What It Means |
+Published as a **model bylaw**. Cities adapt the numbers to their terrain, climate, and existing fabric. The rules describe function, not geometry.
+
+| Principle | What It Asks of the Street |
 |------|---------------|
 | **School at the center** | Every home is a 10-15 minute walk from its school |
 | **Mixed use, mixed people** | Homes, shops, schools and workshops interleaved, not zoned apart |
@@ -193,6 +198,8 @@ Through-traffic is the enemy of village life. Give cars a ring road, give people
 <!-- Modal hierarchy -->
 ## The Modal Hierarchy
 
+A **model bylaw and funding condition.** Cities that adopt a published hierarchy qualify for infrastructure funding. Cities that don't can still fund specific projects.
+
 | Rank | Mode | Street Space | Role |
 |------|------|--------------|------|
 | 1 | **Walking** | Widest sidewalks, car-free cores | Every trip under 1 km; every school run |
@@ -202,7 +209,7 @@ Through-traffic is the enemy of village life. Give cars a ring road, give people
 | 5 | **Trucks and freight** | Service corridors, off-peak windows | Goods delivery, no exceptions for convenience |
 
 <blockquote>
-The hierarchy is not anti-car. It is honest about space: a meter of street given to a car is a meter taken from a child.
+The hierarchy is not anti-car, and it is not a federal rule. It is a menu. Space allocated by principle rather than by history — and adopted locally, or not at all.
 </blockquote>
 
 ---
@@ -236,6 +243,8 @@ The hierarchy is not anti-car. It is honest about space: a meter of street given
   </div>
 </div>
 
+Model typologies, published for adoption. A city with a hill, a river, or a winter can modify any of these and still qualify for funding.
+
 ---
 
 <!-- Cars and trucks -->
@@ -256,22 +265,22 @@ The goal is not to make driving illegal. It is to make driving unnecessary for a
 ---
 
 <!-- ============================ PART 3: BIKE SHARE AS INFRASTRUCTURE ============================ -->
-# Part 3: The Bike Share as National Infrastructure
-## A public utility on two wheels
+# Part 3: The Bike Share as Governed Infrastructure
+## A national standard, run locally
 
 ---
 
 <!-- What it is -->
-## What It Is: One National Network
+## What It Is: One Network, Many Systems
 
-- **A hub in every village and every transit station**, with bikes available at all hours
-- **One account, one fare card, nationwide.** Ride in one city, return in another
-- **Three vehicle classes:** standard bikes, e-bikes, and cargo bikes for shopping and children
-- **Kids' bikes included.** A child's first independent trip is on a shared or handed-down bike, not in a back seat
-- **Public asset, publicly governed.** The network is owned as critical infrastructure, operated under public standards
+- **One account, one fare card, nationwide.** Ride in one city, return in another. The pass is the national layer
+- **A hub in every village and every transit station** — sited by the city, not by an office in Ottawa
+- **Fleet mix is local.** Standard bikes, e-bikes, cargo bikes, enclosed trikes for winter: each city chooses what fits its terrain and climate
+- **Kids' bikes included where cities choose them.** A child's first independent trip is on a shared or handed-down bike, not in a back seat
+- **Publicly governed, locally operated.** The network is critical infrastructure under a public standard. Operations are municipal, co-op, or contracted — the standard does not care which
 
 <blockquote>
-A transit map without bikes is a map with a hole in it. The share network is the last mile, the school run, and the evening errand.
+A transit map without bikes is a map with a hole in it. The national layer is the fare and the account. Everything you can see from the saddle belongs to the city.
 </blockquote>
 
 ---
@@ -279,14 +288,16 @@ A transit map without bikes is a map with a hole in it. The share network is the
 <!-- Why infrastructure -->
 ## Why Infrastructure, Not an App
 
-| | Dockless Private Scheme | National Public Utility |
+| | Dockless Private Scheme | Federated Public Network |
 |---|---|---|
 | **Who designs the streets** | Nobody; bikes fight existing roads | The network and the lanes are built together |
 | **Where bikes go** | Sidewalks, dumped, broken | Fixed hubs at schools, stations, village centers |
 | **Coverage** | Profitable cores only | Mandated: every village, including rural |
 | **Fare** | Surge pricing, per-ride | Flat, subsidized, integrated with transit |
-| **Data and governance** | Private, opaque | Public, with privacy rules |
+| **Data and governance** | Private, opaque | Open availability feed; aggregate ridership published; personal data stays with the local operator |
 | **Lifecycle** | Vandalize and replace | Maintained fleet, long service life |
+| **Exit** | | Rider data portable, hardware non-proprietary, local operator can leave without losing riders |
+| **Versioning** | | Spec versions ship on a published schedule with multi-year support windows |
 
 <blockquote>
 Private share failed because it bolted a fleet onto streets that were never designed for it. Build the streets first, and the fleet becomes trivial to run.
@@ -329,6 +340,57 @@ Each hub makes the next one more useful. Transit and bikes are one system, price
 
 ---
 
+<!-- What stays local -->
+## What Stays Local
+
+The national standard covers the fare, the account, and the data. Everything else belongs to the city:
+
+- **Hub siting** - schools, stations, and village centres chosen locally
+- **Fleet mix** - e-bikes only on hills, enclosed trikes in winter, cargo bikes where families need them
+- **Pricing tiers** - subsidized, flat, or income-scaled
+- **Operations** - municipal, co-op, or contracted
+- **Maintenance and labour** - local jobs at local wages
+- **Branding and wayfinding** - the system has a local name and a local face
+
+<blockquote>
+A national pass, a local bike. The standard guarantees you can ride anywhere; it does not tell a city what to ride.
+</blockquote>
+
+---
+
+<!-- What the standard will not collect -->
+## What the Standard Will Not Collect
+
+Data minimization is a design commitment, not a policy afterthought:
+
+- **No rider tracking.** Availability feeds only — how many bikes at a hub, never who is on them
+- **No trip-level personal data** shared above the local operator
+- **No real-time location feeds** to any agency, for any purpose
+- **No enforcement use.** Ridership data never feeds policing, immigration, or benefit eligibility
+- **Aggregate ridership published openly** — the public good that justifies the public spend
+
+<blockquote>
+The state has a legitimate need to know how many bikes are at the station. It has no need to know who rode one, or when, or where they went afterwards.
+</blockquote>
+
+---
+
+<!-- The physical-layer caveat -->
+## The Physical-Layer Caveat
+
+The national standard covers the **digital interop surface only** — and that is deliberate.
+
+- Software can be standardized at near-zero cost. **Docks, bikes, and mechanics cannot**
+- Every physical standardization is a local compromise: terrain, climate, existing street fabric, local labour
+- So the spec stays small **because the physical layer needs to stay plural**
+- Conformance means "your system can talk to ours." It does not mean "your system looks like ours"
+
+<blockquote>
+Keep the kernel small. Let the distros differ. A city that cannot modify its own fleet has been handed a ceiling and told it is a floor.
+</blockquote>
+
+---
+
 <!-- ============================ PART 4: THE PLATFORM ============================ -->
 # Part 4: The Platform
 ## The software behind the fleet
@@ -336,11 +398,13 @@ Each hub makes the next one more useful. Transit and bikes are one system, price
 ---
 
 <!-- What K8s is -->
-## A Tiny Bit of Plumbing
+## The Reference Implementation
+
+The national layer is a **spec plus a reference implementation**. The spec defines fare, identity, and data interchange. The reference implementation is a working system any city or co-op can run, fork, or replace with its own compliant build. Digital Transformations Canada maintains it. Nobody is required to use it.
 
 The bike share is also a software system that must not go down: accounts, fares, fleet locks, telemetry.
 
-**Kubernetes** is the standard way to run software across many machines as one system:
+The reference implementation runs on standard public-sector machinery: **Kubernetes** is the standard way to run software across many machines as one system:
 
 - You declare what should be running; it starts, restarts, moves, and scales services on its own
 - A machine dies at 3 a.m.? The services reappear somewhere else without anyone waking up
@@ -348,7 +412,7 @@ The bike share is also a software system that must not go down: accounts, fares,
 - Governments, banks, and carriers already run on it; this is proven machinery, not experiment
 
 <blockquote>
-Nobody at the hub needs to know what Kubernetes is. They need the bike to unlock on a wet Tuesday morning.
+Nobody at the hub needs to know what Kubernetes is. They need the bike to unlock on a wet Tuesday morning — and the city needs to be able to replace the software without replacing the fleet.
 </blockquote>
 
 ---
@@ -357,6 +421,8 @@ Nobody at the hub needs to know what Kubernetes is. They need the bike to unlock
 ## Demand Is Tidal
 
 Ride demand is not flat. It is a school rush at 7:45, a homeward surge at five, a downpour, a game night, June versus January.
+
+How the reference implementation handles it:
 
 <div class="flow">
   <div class="flow-box">
@@ -394,21 +460,22 @@ The same three tools government platforms already run, pointed at a mission wort
 ---
 
 <!-- Reliability -->
-## Built to Be Boring
+## Governed to Be Boring
 
 - **Hubs fail soft.** A network outage queues rides locally; the lock still opens, the dock still holds
-- **One platform, many operators.** Regional operations plug in through open APIs instead of re-procuring their own systems
-- **Telemetry is public by default.** Aggregate ridership data published openly; personal data protected, minimized, never sold
+- **A spec body, not an owner.** Cities, provinces, operators, accessibility advocates, and rider representatives hold seats. Versions ship on a published schedule; cities can propose changes
+- **Conformance is tested, not asserted.** A public test suite and a registry of compliant systems. Cities certify; they don't petition
+- **Telemetry is aggregate by default.** Availability feeds open; ridership published; personal data minimized, never sold, never used for enforcement
 - **Boring is the feature.** Heroics at 2 a.m. are a design failure. The platform should be dull, predictable, and quietly excellent
 
 <blockquote>
-A national utility earns trust the same way a sidewalk does: by being there, every single day.
+A national utility earns trust the same way a sidewalk does: by being there every single day, and by being easy to leave if it stops being good.
 </blockquote>
 
 ---
 
-<!-- ============================ PART 5: CHILDREN AND POLICING ============================ -->
-# Part 5: Children and the New Police Role
+<!-- ============================ PART 5: CHILDREN AND SAFE STREETS ============================ -->
+# Part 5: Children and Safe Streets
 ## Protecting what matters most
 
 ---
@@ -430,23 +497,6 @@ Nobody drives their kid to school here. Not because it is forbidden, but because
 
 ---
 
-<!-- The new policing role -->
-## Police, Retooled: Guardians of the Street
-
-A society that puts children first redefines what its police do:
-
-- **Morning escort duty.** Officers walk and ride school routes at the times children travel; presence, not enforcement
-- **Crossing guardianship.** Staffed crossings at the busiest village routes, funded as part of the school system
-- **Village beat, on foot and bike.** Officers assigned to a village long-term, known by name, reachable in minutes
-- **Less traffic court, more prevention.** Speed and endangerment handled by design and camera; officers freed for the human work
-- **The mandate, written down.** Protect the most vulnerable road users, and children first among them
-
-<blockquote>
-The most important thing in society is a child walking to school. The police exist to stand between that child and harm.
-</blockquote>
-
----
-
 <!-- ============================ PART 6: DELIVERY ============================ -->
 # Part 6: Delivery
 ## How it actually gets built
@@ -458,9 +508,9 @@ The most important thing in society is a child walking to school. The police exi
 
 | Phase | Years | What Happens |
 |-------|-------|--------------|
-| **1. Standard** | 0-2 | National design rules: bike-share hub standard, village definition, street typology, safe-route spec |
+| **1. Standard** | 0-2 | National interop spec (fare, identity, availability data, privacy floor), conformance test suite, and a published set of model bylaws for cities that want them |
 | **2. Proof villages** | 1-4 | Convert a dozen villages and city districts; prove the model with real families and real schools |
-| **3. Bike-share build** | 2-6 | National network rolled out on the protected lanes, hub by hub, mandated to every region |
+| **3. Bike-share build** | 2-6 | National network rolled out **hub by hub, city by city**, on protected lanes built to local design. Funding conditioned on conformance, not conformity |
 | **4. Conversion** | 4-15 | Through-traffic removed village by village; parking converted to housing and parks |
 | **5. Steady state** | 15+ | Maintenance and expansion; the default city, not the experiment |
 
@@ -473,16 +523,16 @@ Start where the political will is. Make the first villages so good that every re
 <!-- Who builds it -->
 ## Who Builds It
 
-This is a national build with a single owner, the same way big public systems always get built:
+This is a national **standard** with local **ownership**, the way public systems work when they work:
 
-- **One federal delivery office** owns the standard and the platform: fare card, account, payments, fleet telemetry, open APIs
-- **Build once, deploy everywhere.** Regions and operators plug into the national platform; nobody re-procures the same software thirty times
-- **The expertise already exists in government.** Running shared platforms at national scale is a solved problem here; it just needs a mission worth pointing at
-- **Private operators can run fleets.** They run the bikes and the maintenance, under public standard, on the public platform
-- **Digital Transformations Canada** is the natural home for the platform layer: shared digital infrastructure, built federal, consumed locally
+- **A spec body** with seats for cities, provinces, operators, and riders owns the standard: fare, identity, payments, availability data, privacy floor
+- **Digital Transformations Canada** maintains the reference implementation and the conformance test suite. Anyone can run it, fork it, or build their own compliant system
+- **Cities and regions procure their own operations** — municipal, co-op, or contracted. The spec prevents incompatibility; it does not pick the operator
+- **Infrastructure funding is conditioned on conformance** with the fare and data standard, not on adopting any particular street design
+- **Proof villages are funded competitively.** Cities propose their own designs against a published floor
 
 <blockquote>
-The lanes are a municipal job. The fleet is an operations job. The platform is a national job. Do not mix them up.
+The lanes are a municipal job. The fleet is an operations job. The spec is a national job. Do not mix them up.
 </blockquote>
 
 ---
@@ -497,9 +547,13 @@ The lanes are a municipal job. The fleet is an operations job. The platform is a
 - **Keeping car capacity "for now"** - every lane left in place signals that the old city is still the real one
 - **School gates full of cars "just this morning"** - exceptions every day are not exceptions; design them out
 - **Enforcement without design** - fines replace protection; the street stays lethal for the child who misses a signal
+- **One national app cities can't modify** - a reference implementation that becomes the only implementation is a ceiling dressed as a floor
+- **A spec body captured by a single vendor** - the CentOS problem: whoever controls the standard controls the cities
+- **Mandatory real-time rider tracking** - the MDS failure: legibility run wild, privacy surrendered for dashboards
+- **An exit that's too expensive to take** - if leaving the network means losing your fleet and your riders, you were never free to stay
 
 <blockquote>
-Half-measures are worse than nothing. They build the public's belief that the change failed, when only the commitment did.
+Half-measures are worse than nothing. So is a perfect standard nobody can leave. Build the smallest possible national layer, and make it easy to walk away from.
 </blockquote>
 
 ---
@@ -507,12 +561,11 @@ Half-measures are worse than nothing. They build the public's belief that the ch
 <!-- Conclusion -->
 ## The Ask
 
-- **Adopt the village as the unit of planning.** Everything daily within a 15-minute walk
-- **Adopt the modal hierarchy in law.** Space allocated by the hierarchy, not by history
-- **Fund the national bike share as public infrastructure,** with a hub in every village and every school
-- **Build the national platform once,** federally, with open APIs and one account nationwide
-- **Rewrite the police mandate** around the protection of children and the vulnerable on the street
-- **Start with proof villages,** then convert, then scale nationwide
+- **Fund a national interop spec and reference implementation** through Digital Transformations Canada, governed jointly with provinces and cities
+- **Condition infrastructure funding on conformance** with the fare, account, and open-data standard — not on adopting any particular street design
+- **Publish model bylaws** for the village, the modal hierarchy, and safe routes to school — a menu, not a mandate
+- **Fund proof villages competitively,** with cities proposing their own designs against a published floor
+- **Fund the network hub by hub, city by city,** with local operations and a national account
 
 <blockquote>
 A city is not a traffic problem to be managed. It is a place where children grow up. Build accordingly.
@@ -538,3 +591,5 @@ A city is not a traffic problem to be managed. It is a place where children grow
 ### Platform:
 9. Kubernetes - the standard for running services across many machines as one system
 10. VPA, KEDA, Karpenter - right-sizing, event-driven scaling, and just-in-time capacity for tidal demand
+11. GBFS (General Bikeshare Feed Specification) - the narrow, open availability standard; the model for what the national layer should look like
+12. MDS (Mobility Data Specification) - the cautionary case: a standard that required real-time rider tracking and drew sustained privacy criticism before governance was settled
