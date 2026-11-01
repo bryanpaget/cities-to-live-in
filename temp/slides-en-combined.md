@@ -41,6 +41,10 @@ A nationwide blueprint for rebuilding cities around human life:
 This is not a bike lane proposal. It is a proposal to build cities for people again.
 </blockquote>
 
+<blockquote>
+Standardize what must interoperate. Leave everything else alone.
+</blockquote>
+
 ---
 
 <!-- The problem -->
@@ -70,13 +74,11 @@ Every design decision gets one test:
 - If the answer is no, the street is designed wrong
 - Children are the most vulnerable road users, and the most honest ones
 - A city that works for an eight-year-old works for everyone: the elderly, the disabled, the teenager, the parent with groceries
-- This is not sentiment. It is a design specification
+- This is not sentiment. It is a design specification — a checklist each city applies to its own streets, not a national rule
 
 <blockquote>
 Build the city for the weakest user and the strongest user will be fine. Reverse it and nobody is safe.
 </blockquote>
-
-This is a **design review checklist for cities**, not a national specification. Each city applies the test to its own streets.
 
 ---
 
@@ -124,10 +126,10 @@ China is not piloting this. China finished the pilot decades ago:
 - **E-bikes are ordinary transport for hundreds of millions.** Not a hobby, not a lifestyle; the commute
 - **Share hubs and metro stations interlock.** Bikes are treated as the circulatory system of transit, not an afterthought bolted onto the car plan
 - **Meanwhile here:** Ontario removes bike lanes, Ottawa debates a pilot, Toronto fights over a single corridor, and we congratulate ourselves for being a serious country
-- **And the dockless wave failed too.** Operator collapse, abandoned fleets, no public standard, no accountability. China's lesson is not "copy the scale." It is "govern the public layer, keep the operator layer plural."
+- **And the dockless era proved the model at civilizational scale.** Hundreds of millions of riders, bikes on every corner, a habit of daily cycling rebuilt in a decade. It also exposed what happens when a commons has no public layer: operator collapse, deposit losses, abandoned fleets. China's answer was not to retreat — it was to impose national service standards, unique vehicle codes, maintenance requirements, and local fleet caps. The system matured into a regulated, consolidated market with hundreds of millions of users and millions of shared e-bikes across hundreds of cities. **The lesson is not "copy the scale" or "dockless is bad." It is: govern the public layer, keep the operator layer plural, and regulate the commons.**
 
 <blockquote>
-The hard part was never the technology or the money. It is believing you are allowed to build it — and then building the public layer well enough that nobody has to trust a single company with the whole city.
+The hard part was never the technology or the money. It is believing you are allowed to build it — and then building the public layer well enough that the whole city can trust it, and no single company can hold it hostage.
 </blockquote>
 
 ---
@@ -157,10 +159,10 @@ The hard part was never the technology or the money. It is believing you are all
   </div>
   <div class="flow-arrow">&rarr;</div>
   <div class="flow-box">
-    <div class="plate plate-head">Guardianship</div>
-    <div class="plate">Police post and</div>
-    <div class="plate">community presence</div>
-    <div class="plate">on foot and bike</div>
+    <div class="plate plate-head">Civic Life</div>
+    <div class="plate">Library, community hall,</div>
+    <div class="plate">public square within</div>
+    <div class="plate">a short walk of every home</div>
   </div>
 </div>
 
@@ -274,7 +276,7 @@ The goal is not to make driving illegal. It is to make driving unnecessary for a
 ## What It Is: One Network, Many Systems
 
 - **One account, one fare card, nationwide.** Ride in one city, return in another. The pass is the national layer
-- **A hub in every village and every transit station** — sited by the city, not by an office in Ottawa
+- **Hubs where cities choose them**, with funding structured so that every village and transit station can have one if the city wants it
 - **Fleet mix is local.** Standard bikes, e-bikes, cargo bikes, enclosed trikes for winter: each city chooses what fits its terrain and climate
 - **Kids' bikes included where cities choose them.** A child's first independent trip is on a shared or handed-down bike, not in a back seat
 - **Publicly governed, locally operated.** The network is critical infrastructure under a public standard. Operations are municipal, co-op, or contracted — the standard does not care which
@@ -292,7 +294,7 @@ A transit map without bikes is a map with a hole in it. The national layer is th
 |---|---|---|
 | **Who designs the streets** | Nobody; bikes fight existing roads | The network and the lanes are built together |
 | **Where bikes go** | Sidewalks, dumped, broken | Fixed hubs at schools, stations, village centers |
-| **Coverage** | Profitable cores only | Mandated: every village, including rural |
+| **Coverage** | Profitable cores only | Rural and low-density included by funding design, not left to the market |
 | **Fare** | Surge pricing, per-ride | Flat, subsidized, integrated with transit |
 | **Data and governance** | Private, opaque | Open availability feed; aggregate ridership published; personal data stays with the local operator |
 | **Lifecycle** | Vandalize and replace | Maintained fleet, long service life |
@@ -366,7 +368,7 @@ Data minimization is a design commitment, not a policy afterthought:
 - **No rider tracking.** Availability feeds only — how many bikes at a hub, never who is on them
 - **No trip-level personal data** shared above the local operator
 - **No real-time location feeds** to any agency, for any purpose
-- **No enforcement use.** Ridership data never feeds policing, immigration, or benefit eligibility
+- **No enforcement use.** Ridership data never feeds law enforcement, immigration, or benefit eligibility
 - **Aggregate ridership published openly** — the public good that justifies the public spend
 
 <blockquote>
@@ -402,9 +404,7 @@ Keep the kernel small. Let the distros differ. A city that cannot modify its own
 
 The national layer is a **spec plus a reference implementation**. The spec defines fare, identity, and data interchange. The reference implementation is a working system any city or co-op can run, fork, or replace with its own compliant build. Digital Transformations Canada maintains it. Nobody is required to use it.
 
-The bike share is also a software system that must not go down: accounts, fares, fleet locks, telemetry.
-
-The reference implementation runs on standard public-sector machinery: **Kubernetes** is the standard way to run software across many machines as one system:
+The reference implementation runs on standard public-sector machinery. **Kubernetes** is the standard way to run software across many machines as one system:
 
 - You declare what should be running; it starts, restarts, moves, and scales services on its own
 - A machine dies at 3 a.m.? The services reappear somewhere else without anyone waking up
@@ -470,6 +470,22 @@ The same three tools government platforms already run, pointed at a mission wort
 
 <blockquote>
 A national utility earns trust the same way a sidewalk does: by being there every single day, and by being easy to leave if it stops being good.
+</blockquote>
+
+---
+
+<!-- Governance -->
+## How the Spec Is Governed
+
+The standard is only as trustworthy as the body that holds it.
+
+- **A multi-stakeholder council**, chaired independently, with voting seats for cities, provinces, operators, accessibility advocates, and rider representatives. No single vendor, agency, or level of government holds a majority
+- **Published versioning.** Spec versions ship on a fixed cadence with multi-year support windows, so a city is never forced to re-certify on a vendor's schedule
+- **An open change process.** Any member can propose an amendment; the test suite is public; the rationale for every accepted or rejected change is published
+- **The reference implementation is one option among many.** DTC maintains it as a public good, and any compliant system can replace it without losing riders, data, or fleet
+
+<blockquote>
+A standard is only legitimate if the people who have to live with it helped write it — and can leave it without losing their city.
 </blockquote>
 
 ---
@@ -543,7 +559,7 @@ The lanes are a municipal job. The fleet is an operations job. The spec is a nat
 - **Painted lanes next to speeding traffic** - a stripe of paint is not infrastructure; protect it or delete it
 - **A pilot with no network** - one pretty bike street that connects to nothing teaches people that bikes do not go anywhere
 - **Bike share without bike lanes** - fleets die on hostile streets; the app is not the product, the street is
-- **Thirty regional procurements** - every region re-buys its own platform; the national account dies, and so does the network effect
+- **Thirty incompatible platform procurements** - each region re-buys a proprietary platform that cannot talk to its neighbours; the national account dies, and so does the network effect. Operations procurement is fine. Platform fragmentation is not.
 - **Keeping car capacity "for now"** - every lane left in place signals that the old city is still the real one
 - **School gates full of cars "just this morning"** - exceptions every day are not exceptions; design them out
 - **Enforcement without design** - fines replace protection; the street stays lethal for the child who misses a signal
